@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>SquareOne Music & Lessons</title>
+	<link href="css_all.css" rel="stylesheet" />
+	<script src=".js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="header2.jpg" alt="" id="logoimg" />
+		<nav class="horizontal">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="rentals.html">Rentals</a></li>
+				<li><a href="lessons.html">Lessons</a></li>
+				<li><a href="#">Educators</a></li>
+				<li><a href="#">Repairs</a></li>
+				<li><a href="#">Store Locators</a></li>
+			</ul>
+		</nav>
+	</header>
+    <section id="left">
+		<article>
+			<h1>Instrument Rental or Purchase</h1>
+			<p>SquareOne Music & Lessons is one of the largest providers of musical instrument rental in the U.S.  <strong>Educator-approved and trusted by teachers</strong>, we have over 300 retail and affiliate locations with more than 150 educational representatives servicing schools across the country.</p>
+			
+			<p>Renting an instrument is a great way for you or your child to try an instrument without needing to make a substantial up-front investment.  If your child outgrows the instrument, changes to another instrument or it's time to upgrade past the beginner model, you can <strong>exchange</strong> your child's instrument for one of equal or greater value.</p>
+			
+			<p>SquareOne Music & Lessons provides customers with several options with every instrument we carry.  You can rent-to-own or purchase with in-store options and services.  We also provide delivery for instruments and accessories for your convenience.  Fill out our <a href="lessons.html">customer information form</a> for more information or come to one of our locations today!</p>
+			
+			<img id="rentals" src="rental_kids.jpg" alt="" />
+			
+		</article>
+	</section>
+	
+	<section id="right">
+		<article>
+			<h2>Rent-to-Own</h2>
+			<img class="home" src="inst_rental.jpg" alt="" />
+			<p>Did you know all of our rental customers are eligible for <strong>special purchase options</strong>? When you participate in the rent-to-own program, you are actually working towards paying off your instrument!</p>
+		</article>
+		<article>
+			<h2>Exchange</h2>
+			<img class="home" src="exchange.jpg" alt="" />
+			<p>With our rental program you get the chance to try it out without committing to a purchase. If you decide later it's not your instrument, you may exchange it for another instrument of equal or greater value throughout the life of the agreement!</p>
+		</article>
+		<article>
+			<h2>Upgrade</h2>
+			<img class="home" src="stages.jpg" alt="" />
+			<p>Beginner level instruments are a lot like “easy mode” in a video game. When you upgrade, a step-up instrument is “intermediate” and professional instruments are for “experts.” If a student has truly mastered the beginner level instrument, then a step-up instrument is the next move.</p>
+		</article>
+		
+	</section>
+   
+   <footer>
+      SquareOne Music & Lessons &copy; 2022 English (US) <span><a href="#">Home</a>
+      <a href="#">Rentals</a> <a href="#">Lessons</a> 
+      <a href="#">Educators</a> <a href="#">Repairs</a> <a href="#">Store Locators</a></span>
+   </footer>
+</body>
+
+</html>

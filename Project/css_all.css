@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+/* Basic styles to be used with all devices and under all conditions */
+
+
+address, article, aside, blockquote, body, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, header, html, img, li, main, nav, nav a, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+/* HTML Styles */
+html {
+	background-image: url("background_home.jpg");
+	background-attachment: fixed;
+	width: 100%;
+	background-size: cover;
+	background-color: rgb(31, 31, 31);
+}
+
+
+
+
+/* Navigation List Styles */
+
+
+body > header:active, body > header a:hover {
+   background-color: rgb(71, 71, 71);
+}
+
+header nav.horizontal {
+   width: 100%;
+   background: rgb(71, 71, 71);
+}
+
+
+header nav.horizontal li {
+   background-color: rgb(41, 41, 41);
+   display: block;
+   font-family: Tahoma, Geneva, sans-serif;
+   float: left;
+   width: 16.66%;
+}
+
+
+header nav.horizontal li a {
+   color: white;
+   display: block;
+   font-size: 0.8em;
+   height: 50px; 
+   letter-spacing: 0.1em;   
+   line-height: 50px; 
+   text-align: center;     
+   width: 100%;
+}
+
+header nav.horizontal li a:visited, header nav.horizontal li a:link {
+	color: white;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+/*Header Styles */
+
+h1 {
+	font-size: 34px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: bold;
+	margin: 20px 0px 20px 20px;
+	color: rgb(211, 211, 255) !important;
+	text-shadow: 0px 0px 5px black;
+}
+
+h2 {
+	font-family: 'Courier New', courier, monospace;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 50px 20px 20px 20px;
+	text-align: center;
+}
+
+
+header img#logoimg {
+   clear:left;
+   display: block;
+   margin: 5px auto;
+   width: 100%;
+   border-bottom: 5px solid black;
+}
+
+
+
+/* Body Styles */
+body {
+	background: url("bg4.jpg") no-repeat center;
+	background-size: cover;
+	box-shadow: 30px 0px 45px rgb(31, 31, 31), -30px 0px 45px rgb(31, 31, 31);font-family: Verdana, Geneva, sans-serif;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px auto;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+	float: none;
+	width: 90%;
+	max-width: 1000px;
+	min-width: 800px;
+}
+
+strong {
+   font-weight: bold;
+}
+
+p a {
+   color: black;
+   text-decoration: underline;
+}
+
+/* Section Left Styles */
+#left > article h1 {
+	color: rgb(211, 211, 255) !important;
+	text-shadow: 0px 0px 5px black;
+}
+
+#left > article #people_home {
+	filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
+	transform: rotateY(180deg);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+/* Sections Layout */
+section#left {
+   float: left;
+   width: 50%;
+   margin-right: 2%;
+}
+
+section#right {
+   float: left;
+   width: 48%;
+   padding-bottom: 20px;
+}
+
+/* Left Section */
+section#left article {
+   width: 95%;
+   margin: 0px auto;
+}
+
+section#left article h1 {
+   color: rgb(31, 31, 31);
+   font-size: 34px;
+   font-family: 'Ubuntu Condensed', sans-serif;
+   font-weight: bold;
+   margin: 20px 0px 20px 20px;
+}
+
+
+section#left article p {
+   margin: 0px 0px 20px 20px;
+   color: rgb(31, 31, 31);
+   font-family: Verdana, Geneva, sans-serif;
+}
+
+img#people_home {
+	display: block;
+	width: 50%;
+}
+
+img#rentals {
+	border-radius: 8px;
+	margin: 0px 0px 20px 70px;
+	
+}
+
+img#rent {
+	width: 500%;
+	height: auto;
+	border-radius: 8px;
+	margin: 20px 20px 20px 80px;
+}
+
+/* Right Section */
+section#right article {
+   width: 95%;
+   clear: left;
+   text-align: center;
+}
+
+section#right h1 {
+   font-size: 18px;
+   text-align: center;
+   padding: 15px 0px 10px 0px;
+}
+
+section#right h2 {
+	text-align: right;
+	margin: 70px 20px 20px 20px;
+}
+
+section#right img {
+   float: left;
+   width: 30%;
+   margin-right: 5%;
+}
+
+section#right p {
+   float: left;
+   width: 62%;
+   font-size: 12px;
+   font-family: Verdana, Geneva, sans-serif;
+}
+
+
+/* Footer Styles */
+footer {
+   margin-top: 15px;
+   background-color: rgb(71, 71, 71);
+   color: rgb(231, 231, 231);
+   text-align: right;
+   border-top: 2px solid rgb(171, 171, 171);
+   clear: left;
+}
+
+footer, footer span a {
+   font-size: 11px;
+   padding: 10px;
+   color: rgb(231, 231, 231);
+   margin-top: 15px;
+   background-color: rgb(71, 71, 71);
+   text-align: right;
+   text-decoration: none;
+}
+
+footer span a:hover {
+   color: rgb(231, 231, 231);
+   text-decoration: underline;
+}

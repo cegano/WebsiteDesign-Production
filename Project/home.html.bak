@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SquareOne Music & Lessons</title>
+	<link href="css_all.css" rel="stylesheet">
+	<script src=".js"></script>
+</head>
+
+<body>
+    <header>
+		<img src="header2.jpg" alt="" id="logoimg"/>
+		<nav class="horizontal">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="rentals.html">Rentals</a></li>
+				<li><a href="lessons.html">Lessons</a></li>
+				<li><a href="#">Educators</a></li>
+				<li><a href="#">Repairs</a></li>
+				<li><a href="#">Store Locators</a></li>
+			</ul>
+		</nav>
+		
+    </header>
+    <section id="left">
+		<article>
+			<h1>About SquareOne Music & Lessons</h1>
+			<p>Established in 1989, <strong>SquareOne Music & Lessons</strong> with the sole mission of spreading our love and passion of music.  Our founder, John Smith, grew up with a strong passion for music that was enstilled in him by his parents.  He eventually was moved to start a band and recorded many records that went on to win awards, he toured with his band for over a decade.  But his passion was always to start a music store to encourage others to pursue their musical dreams.</p>
+		 
+			<p>We would like you to join us in John's mission by using the services we provide.  Our instructors have been working diligently to provide a wonderful learning experience.  <a href="rentals.html">Rentals</a> are a provided for almost all of our instruments and we offer payment plans for purchasing instruments.  We also offer just about any accessories needed for all instruments, if we don't have it in our store we will find it for you.</p>
+			
+			<p><img id="people_home" src="people_playing.jpg" alt="" />
+			</p>
+			
+		</article>
+	</section>
+	<section id="right">
+		<article>
+			<h2>Rentals</h2>
+			<img class="home" src="rental_pic.jpg" alt="" />
+			<p>Rent your band or orchestra instrument through our online <a href="lessons.html">rental site</a> or visit your neighborhood SquareOne Music and Lessons location.</p>
+		</article>
+		<article>
+			<h2>Lessons</h2>
+			<img class="home" src="lessons.jpg" alt="" />
+			<p>Private <a href="lessons.html">lessons</a>, in our safe learning environment are building blocks to a life-long relationship with music.</p>
+		</article>
+		<article>
+			<h2>Educators</h2>
+			<img class="home" src="educators.jpg" alt="" />
+			<p>Access the educator portal to easily shop for the right instruments, accessories and music books for your class.</p>
+		</article>
+		<article>
+			<h2>Repairs</h2>
+			<img class="home" src="repair.jpg" alt="" />
+			<p>Our friendly repair shop employees can share their expert knowledge for cleaning, storing and maintaining your instrument with our free repair estimates.</p>
+		</article>
+		<article>
+			<h2>Store Locator</h2>
+			<img class="home" src="locator.jpg" alt="" />
+			<p>Visit one of our 250+ neighborhood stores for expert advice on everything musical: products, rentals, lessons and repairs.</p>
+		</article>
+	</section>
+	<footer>
+      SquareOne Music & Lessons &copy; 2022 English (US) <span><a href="#">Home</a>
+      <a href="#">Rentals</a> <a href="#">Lessons</a> 
+      <a href="#">Educators</a> <a href="#">Repairs</a> <a href="#">Store Locators</a></span>
+	</footer>
+</body>
+</html>

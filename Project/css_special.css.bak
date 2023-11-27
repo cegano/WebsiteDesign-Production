@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section { 
+   display: block;
+}
+
+h1 {
+	margin: 20px 0px 20px 8px;
+}
+
+/* Form Layout Styles */
+
+label {
+   display: block;
+   float: left;
+   clear: left;
+   margin: 5px;
+   width: 200px;
+}
+
+input, select, textarea {
+   display: block;
+   float: left;
+   margin: 5px 0px;
+   width: 200px;
+}
+
+textarea {
+   height: 100px;
+}
+
+form p {
+   clear: left;
+   text-align: center;
+   padding-top: 40px;
+}
+
+input[type='submit'] {
+   background-color: rgb(71, 71, 71);
+   color: rgb(245,245,165);
+   border-radius: 20px;
+   float: none;
+   display: inline;
+   font-size: 1.1em;
+   height: 30px;
+   width: 150px;
+}
+
+/* Aside Styles */
+
+aside {
+   background: rgb(71, 71, 71);
+   color: white;
+   -webkit-flex: 1 2 220px;
+   flex: 1 2 220px ;
+   padding: 25px;    
+}
+
+dt {
+   font-size: 1em;
+   border-bottom: 1px solid white;
+   font-weight: bold;
+}
+
+dd {
+   margin-bottom: 25px;
+}
+
+dl a {
+   color: gold;
+}
+
+/* Section Styles */
+
+section > p {
+   margin: 20px 0px 20px 8px;
+   padding-bottom: 9px;
+   border-bottom: 3px solid rgb(71, 71, 71);
+}
+
+section#left {
+	width: 65%;
+	margin: 20px 0px 20px 50px;
+}
+
+section#right {
+	width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>SquareOne Music & Lessons</title>
+	<link href="css_all.css" rel="stylesheet" />
+	<link href="css_special.css" rel="stylesheet" />
+	<script src="so_script.js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="header2.jpg" alt="" id="logoimg" />
+		<nav class="horizontal">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="rentals.html">Rentals</a></li>
+				<li><a href="lessons.html">Lessons</a></li>
+				<li><a href="#">Educators</a></li>
+				<li><a href="#">Repairs</a></li>
+				<li><a href="#">Store Locators</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="left">
+
+      <h1>Customer Information</h1>
+      <p>Required Item (*)</p>
+	  <form action="http://www.example.com/soml/lessons" method="post">
+		<label for="firstName">First Name*</label>
+		<input type="text" name="firstName" id="fnBox" required>
+		<label for="lastName">Last Name*</label>
+		<input type="text" name="lastName" id="lnBox" required>
+		<label for="address">Address</label>
+		<textarea type="text" name="address" id="addBox" required></textarea>
+		<label for="email">E-mail*</label>
+		<input type="email" name="email" id="mailBox" required>
+		<label for="phoneNumber">Phone Number</label>
+		<input type="tel" name="phoneNumber" id="phoneBox" placeholder="(nnn)nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>
+		
+		<label for="regList">Instrument of Interest</label>
+		<select id="regList">
+			<option value="guitars">Guitars</option>
+			<option value="woodwinds">Woodwinds</option>
+			<option value="brass">Brass</option>
+			<option value="percussion">Percussion</option>
+			<option value="orchestra">Orchestra</option>
+			<option value="piano">Piano</option>
+			<option value="other">Other</option>
+		</select>
+		
+		<p>
+			<input type="submit" value="Continue">
+		</p>
+	
+	</form>
+		
+	</section>
+	
+	<section id="right">	
+		<aside>
+			<dl>
+			<dt>Trial Lesson</dt>
+			<dd>We offer a free trial lesson to all interested.</dd>
+			<dt>Music Lesson Duration</dt>
+			<dd>Lesson times vary between 30 and 60 minutes.</dd>
+			<dt>30 Minute Lesson ($30)<dt>
+			<dd>Most popular duration for beginners!</dd>
+			<dt>60 Minute Lesson ($60)</dt>
+			<dd>Great for advanced studentsto perfect their skills.</dd>
+			<dt>Group Lessons ($35)</dt>
+			<dd>Available for select instruments, sessions are 60 minutes long.</dd>
+			</dl>
+		</aside>
+	</section>
+	
+	<footer>
+      SquareOne Music & Lessons &copy; 2022 English (US) <span><a href="#">Home</a>
+      <a href="#">Rentals</a> <a href="#">Lessons</a> 
+      <a href="#">Educators</a> <a href="#">Repairs</a> <a href="#">Store Locators</a></span>
+	</footer>
+</body>
+
+</html>
